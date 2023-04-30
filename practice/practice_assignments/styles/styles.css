@@ -1,0 +1,74 @@
+nav {
+    background-color: steelblue;
+    padding: 50px;
+}
+
+a {
+    color: white;
+    margin: 40px;
+    font-size: 1.3em;}
+
+h1 {
+  color: darkgoldenrod;
+  text-align: center;
+}
+
+main { color: purple;
+        font-size: 20px;}
+
+.main-para {
+    color: green;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+#active {
+  border: 2px solid red;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  color: white;
+  font-size: 1.5em;
+  width: 80%;
+  padding:30px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: steelblue;
+}
+
+nav, footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#active:hover, #churchsite:hover, #scriptures:hover, #temple:hover {
+  background-color: slateblue;
+  color: white;
+  font-size: 2em;
+}
+
+/* #churchsite:hover {
+  background-color: slateblue;
+  color: white;
+}
+
+#scriptures:hover {
+  background-color: slateblue;
+  color: white;
+}
+
+#temple:hover {
+  background-color: slateblue;
+  color: white;
+} */
