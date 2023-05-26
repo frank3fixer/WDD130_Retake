@@ -1,16 +1,21 @@
 nav {
     background-color: steelblue;
     padding: 50px;
+    font-size: 1.5em;
+    margin: 100px;
 }
 
 a {
     color: white;
     margin: 40px;
-    font-size: 1.3em;}
+    font-size: 1.3em;
+}
 
 h1 {
   color: darkgoldenrod;
   text-align: center;
+  margin: 50px 0;
+  font-size: 5em;
 }
 
 main { color: purple;
@@ -30,6 +35,8 @@ main { color: purple;
 }
 
 img {
+  border-radius: 50%;
+  border: 4px dashed steelblue;
   width: 80%;
   display: block;
   margin: 0 auto;
@@ -39,12 +46,13 @@ footer p {
   color: white;
   font-size: 1.5em;
   width: 80%;
-  padding:30px;
+  padding:25px;
   margin: 0 auto;
 }
 
 footer {
   background-color: steelblue;
+  color: white;
 }
 
 nav, footer {
@@ -55,7 +63,9 @@ nav, footer {
 #active:hover, #churchsite:hover, #scriptures:hover, #temple:hover {
   background-color: slateblue;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
+  padding: 50px;
+  margin: 100px;
 }
 
 /* #churchsite:hover {
