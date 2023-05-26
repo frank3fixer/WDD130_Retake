@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sigmar+One&display=swap');
 
 #content {
     max-width: 1600px;
@@ -7,6 +8,14 @@
 
 body {
     background-color: #2f98c130;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -14,8 +23,13 @@ header {
     color: white;
 }
 
+#logo_link {
+    padding-top: 5px;
+    margin: 10px;
+}
+
 .logo {
-    width: 80px;
+    width: 15%;
 }
 
 nav a {
@@ -23,6 +37,8 @@ nav a {
     background-color: #c7f9cc;
     color: black;
     text-decoration: none;
+    padding: 35px;
+    padding-top: 0;
 }
 
 nav a:hover {
@@ -52,10 +68,24 @@ main section {
     background-color: #2f98c197;
 }
 
+.home-title {
+    color: rgb(62, 60, 60);
+    font-family: "Sigmar One", Helvetica , sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .book, .join {
     background-color: #fea95f;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home-grid {
+    margin-top: 2%;
 }
 
 .book:hover, .join:hover {
@@ -63,8 +93,22 @@ main section {
     color: black;
 }
 
+.card-img {
+    border: 10px solid #2f98c197;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
     background-color: #c7f9cc;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -73,10 +117,13 @@ main section {
 
 .msg p {
     color: black;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #c7f9cc;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -96,9 +143,9 @@ footer a:hover {
     color: black;
 }
 
-.home-title {
-    color: black;
-}
+footer .social img {
+    padding-top: 15px;
+} 
 
 h4 {
     color: black;
@@ -106,4 +153,5 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
