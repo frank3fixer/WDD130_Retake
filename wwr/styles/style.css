@@ -244,9 +244,7 @@ h4 {
 
 
 @media screen and (max-width: 900px) {
-    #content {
-        margin: auto;
-    }
+
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -260,9 +258,11 @@ h4 {
     }
     #hero {
         margin-top: 0;
+
     }
     #hero-box {
-        width: 40%;
+        width: 40px;
+        height: auto;
     }
     #hero-msg {
         margin-top: 0;
