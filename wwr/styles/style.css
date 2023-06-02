@@ -247,7 +247,6 @@ h4 {
     #hero, .home-grid {
         display: block;
         height: auto;
-        width: auto;
     }
     nav, footer {
         flex-direction: column;
@@ -258,6 +257,9 @@ h4 {
     }
     #hero {
         margin-top: 0;
+    }
+    #hero-box {
+        width: 40%;
     }
     #hero-msg {
         margin-top: 0;
