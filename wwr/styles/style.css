@@ -244,6 +244,9 @@ h4 {
 
 
 @media screen and (max-width: 900px) {
+    #content {
+        margin: auto;
+    }
     #hero, .home-grid {
         display: block;
         height: auto;
