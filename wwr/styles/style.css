@@ -247,6 +247,7 @@ h4 {
     #hero, .home-grid {
         display: block;
         height: auto;
+        width: auto;
     }
     nav, footer {
         flex-direction: column;
