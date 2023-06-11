@@ -187,20 +187,23 @@ nav a:hover {
   text-align: left;
 }
 .tm {
-  max-width: 750px;
+  max-width: 500px;
 }
 .bkc1 {
-  max-width: 750px;
+  max-width: 500px;
   margin-top: 20px;
 }
 .bkc {
-  max-width: 750px;
+  max-width: 500px;
 }
 .tm2 {
   max-width: 500px;
   margin-top: 20px;
 }
+.bkc3 {
+  max-width: 600px;
+}
 .map {
-  max-width: 1100px;
+  max-width: 750px;
   margin-top: 20px;
 }
