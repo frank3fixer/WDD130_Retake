@@ -176,3 +176,31 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.content1 {
+  text-align: left;
+}
+.content2 {
+  text-align: left;
+}
+.content3 {
+  text-align: left;
+}
+.tm {
+  max-width: 750px;
+}
+.bkc1 {
+  max-width: 750px;
+  margin-top: 20px;
+}
+.bkc {
+  max-width: 750px;
+}
+.tm2 {
+  max-width: 500px;
+  margin-top: 20px;
+}
+.map {
+  max-width: 1100px;
+  margin-top: 20px;
+}
